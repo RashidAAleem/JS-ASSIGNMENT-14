@@ -344,40 +344,40 @@
 // }
 
 // q14 
-  // Function to calculate and show the steps for the circumference of a circle
-  function calcCircumference(radius) {
-    // Formula for circumference: 2πr
-    var circumference = 2 * Math.PI * radius;
+//   // Function to calculate and show the steps for the circumference of a circle
+//   function calcCircumference(radius) {
+//     // Formula for circumference: 2πr
+//     var circumference = 2 * Math.PI * radius;
     
-    // Display the formula and steps
-    document.write("<p><strong>Circumference Calculation:</strong></p>");
-    document.write("<p>Formula: 2πr</p>");
-    document.write("<p>Substitute radius (" + radius + "): 2 × π × " + radius + "</p>");
-    document.write("<p>Approximate value: 2 × " + Math.PI.toFixed(2) + " × " + radius + " = " + circumference.toFixed(2) + "</p>");
-    document.write("<p>The circumference is " + circumference.toFixed(2) + ".</p>");
-}
+//     // Display the formula and steps
+//     document.write("<p><strong>Circumference Calculation:</strong></p>");
+//     document.write("<p>Formula: 2πr</p>");
+//     document.write("<p>Substitute radius (" + radius + "): 2 × π × " + radius + "</p>");
+//     document.write("<p>Approximate value: 2 × " + Math.PI.toFixed(2) + " × " + radius + " = " + circumference.toFixed(2) + "</p>");
+//     document.write("<p>The circumference is " + circumference.toFixed(2) + ".</p>");
+// }
 
-// Function to calculate and show the steps for the area of a circle
-function calcArea(radius) {
-    // Formula for area: πr^2
-    var area = Math.PI * Math.pow(radius, 2);
+// // Function to calculate and show the steps for the area of a circle
+// function calcArea(radius) {
+//     // Formula for area: πr^2
+//     var area = Math.PI * Math.pow(radius, 2);
 
-    // Display the formula and steps
-    document.write("<p><strong>Area Calculation:</strong></p>");
-    document.write("<p>Formula: πr²</p>");
-    document.write("<p>Substitute radius (" + radius + "): π × " + radius + "²</p>");
-    document.write("<p>Approximate value: " + Math.PI.toFixed(2) + " × " + radius + " × " + radius + " = " + area.toFixed(2) + "</p>");
-    document.write("<p>The area is " + area.toFixed(2) + ".</p>");
-}
+//     // Display the formula and steps
+//     document.write("<p><strong>Area Calculation:</strong></p>");
+//     document.write("<p>Formula: πr²</p>");
+//     document.write("<p>Substitute radius (" + radius + "): π × " + radius + "²</p>");
+//     document.write("<p>Approximate value: " + Math.PI.toFixed(2) + " × " + radius + " × " + radius + " = " + area.toFixed(2) + "</p>");
+//     document.write("<p>The area is " + area.toFixed(2) + ".</p>");
+// }
 
-// Prompt user to input the radius of the circle
-var radius = parseFloat(prompt("Enter the radius of the circle:"));
+// // Prompt user to input the radius of the circle
+// var radius = parseFloat(prompt("Enter the radius of the circle:"));
 
-// Check if the radius is a valid number
-if (isNaN(radius) || radius <= 0) {
-    document.write("<p>Please enter a valid positive number for the radius.</p>");
-} else {
-    // Call the functions to calculate circumference and area and show steps
-    calcCircumference(radius);
-    calcArea(radius);
-}
+// // Check if the radius is a valid number
+// if (isNaN(radius) || radius <= 0) {
+//     document.write("<p>Please enter a valid positive number for the radius.</p>");
+// } else {
+//     // Call the functions to calculate circumference and area and show steps
+//     calcCircumference(radius);
+//     calcArea(radius);
+// }
